@@ -11,7 +11,7 @@ const Home = () => {
     const isShowsSearch = searchOptions === 'shows';
 
     const onSearch = () => {
-        apiGet(`search/${searchOptions}?q=${input}`)
+        apiGet(`/search/${searchOptions}?q=${input}`)
             .then(result => {
                 setResults(result);
                 console.log(result)
@@ -31,7 +31,6 @@ const Home = () => {
     const onRadioChange = ev => {
         setSearchOptions(ev.target.value);
     }
-    console.log(searchOptions);
 
     const renderResults = () => {
         if (results && results.length === 0)
