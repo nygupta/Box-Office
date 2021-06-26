@@ -36,7 +36,7 @@ const Show = () => {
                     dispatch({type: 'FETCH_SUCCESS', show: results});
             }).catch(err => {
                 if (isMounted) 
-                dispatch({type: 'FETCH_FAILED', error: err.message});
+                    dispatch({type: 'FETCH_FAILED', error: err.message});
             });
 
         return () => {
