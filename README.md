@@ -26,4 +26,4 @@ A movie search app that consumes external API to display data.
     $ npm run deploy
     ```
 #### My Deployed Project
-* The Game is deployed to [nygupta.github.io/Box-Office](https://nygupta.github.io/Box-Office/#/).
+* The App is deployed to [nygupta.github.io/Box-Office](https://nygupta.github.io/Box-Office/#/).
